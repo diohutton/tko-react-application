@@ -9,5 +9,5 @@ I wanted to update our company website with ReactJS, and just get more experienc
 3. Setting Up Store with ReduxJS Toolkit
 
 ## Live Application URL
-http://takeonepromos.com
+<a href="http://takeonepromos.com" target="_blank">http://takeonepromos.com</a>
 
