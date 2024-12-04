@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  width: 100%;
+}
+
+.distro {
+  background-color: #1d1a16;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.distro article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.distro h3 {
+  color: #c6ee29;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.distro p {
+  font-size: 30px;
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutimg {
+  padding: 10px;
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.imgcolumn {
+  width: 600px;
+  padding: 5px;
+}
+
+.textcolumn {
+  width: 600px;
+  padding: 5px;
+}
+
+.highlight {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #3d3e3f;
+  padding: 10px;
+}
+
+.italic {
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #056939;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .imgcolumn {
+    width: 300px;
+    padding: 5px;
+  }
+}
